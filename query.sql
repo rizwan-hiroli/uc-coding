@@ -1,0 +1,1 @@
+SELECT name,grades FROM `users` ORDER BY FIELD(grades, 3, 1) DESC
